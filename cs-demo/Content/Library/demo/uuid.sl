@@ -23,7 +23,7 @@ operation:
       uuid = str(uuid.uuid1())
 
   outputs:
-    - UUID = ${uuid}
+    - UUID: ${uuid}
     
   results:
     - SUCCESS: ${returnCode == '0'}
